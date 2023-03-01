@@ -1,11 +1,7 @@
-/* export class Todo {
-  constructor(public id: string, public text: string) {}
-}
- */
+
 
 import * as mongoose from "mongoose"
 import { Model } from "mongoose"
-import { type } from "os";
 
 type TodoType = TodoModel & mongoose.Document;
 

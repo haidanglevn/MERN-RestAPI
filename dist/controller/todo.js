@@ -5,7 +5,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.removeTodo = exports.updateTodo = exports.getTodo = exports.createTodo = void 0;
 const todo_1 = __importDefault(require("../models/todo"));
-const TODOS = [];
 const createTodo = async (req, res, next) => {
     try {
         const data = req.body;

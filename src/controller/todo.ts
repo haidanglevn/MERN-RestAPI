@@ -2,7 +2,6 @@ import { RequestHandler } from "express";
 import { TodoModel } from "../models/todo";
 import Todo from "../models/todo";
 
-const TODOS:typeof Todo[] = []
 export const createTodo: RequestHandler = async (req, res, next) => {
     try {
         const data : TodoModel = req.body;
